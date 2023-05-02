@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Platform Science</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID:</string>
+    <string name="driver">Driver:</string>
+    <string name="address">Address:</string>
+    <string name="date">Date:</string>
+    <string name="score">Score:</string>
+    <string name="assigned_shipments">Assigned shipments</string>
+    <string name="no_shipments_to_display">No shipments to display</string>
+    <string name="back">Back</string>
+    <string name="select_a_driver">Select a Driver</string>
+    <string name="no_drivers_available">No drivers available</string>
+    <string name="select_a_shipment_destination">Select a shipment destination</string>
+    <string name="assign_shipment">Assign shipment</string>
+    <string name="check_assignments">Check assignments</string>
+</resources>

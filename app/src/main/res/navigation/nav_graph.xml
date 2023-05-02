@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/shipmentsFragment">
+
+    <fragment
+        android:id="@+id/assignedShipmentsFragment"
+        android:name="com.lahdev.platformscience.view.AssignedShipmentsFragment"
+        android:label="fragment_assigned_shipments"
+        tools:layout="@layout/fragment_assigned_shipments" >
+        <action
+            android:id="@+id/action_assignedShipmentsFragment_to_shipmentsFragment"
+            app:destination="@id/shipmentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shipmentsFragment"
+        android:name="com.lahdev.platformscience.view.ShipmentsFragment"
+        android:label="fragment_shipments"
+        tools:layout="@layout/fragment_shipments" >
+        <action
+            android:id="@+id/action_shipmentsFragment_to_assignedShipmentsFragment"
+            app:destination="@id/assignedShipmentsFragment" />
+    </fragment>
+</navigation>
